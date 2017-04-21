@@ -104,7 +104,7 @@ $ heroku run php artisan migrate --app your_app_name
 ```
 **Database Seeds**
 ```
-$ heroku run php artisan migrate --app your_app_name
+$ heroku run php artisan db:seed --app your_app_name
 ```
 
 ## Contributing
